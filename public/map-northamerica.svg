@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="2026 世界杯 16 座主办城市分布图">
+  <defs>
+    <radialGradient id="dot" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFF3D6"/>
+      <stop offset="0.4" stop-color="#F5C452"/>
+      <stop offset="1" stop-color="#D9A03B"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 北美大陆极简地块：#0E1628 填充，#F5C452 描边 -->
+  <path
+    d="M200 330 L150 220 L330 150 L300 90 L560 70 L820 80 L900 150 L840 250 L740 240 L700 300 L780 340 L900 360 L980 400 L930 480 L870 500 L900 570 L960 620 L1010 680 L990 750 L1060 800 L1100 880 L1050 890 L960 800 L880 790 L830 830 L790 900 L850 960 L880 990 L800 940 L730 880 L670 810 L640 740 L610 720 L560 640 L500 560 L470 470 L500 400 L560 360 L530 300 L400 330 Z"
+    fill="#0E1628"
+    stroke="#F5C452"
+    stroke-width="2"
+    stroke-linejoin="round"
+  />
+
+  <!-- 国界示意（虚线） -->
+  <g stroke="#F5C452" stroke-width="1" stroke-dasharray="6 8" opacity="0.28" fill="none">
+    <path d="M560 440 L900 445"/>
+    <path d="M612 722 L700 760 L790 898"/>
+  </g>
+
+  <!-- 16 座主办城市发光圆点 -->
+  <g>
+    <!-- 每个圆点：外层光晕 + 内核 -->
+    <g fill="#F5C452">
+      <circle cx="548" cy="330" r="16" opacity="0.18"/><circle cx="548" cy="330" r="6" fill="url(#dot)"/>
+      <circle cx="558" cy="356" r="16" opacity="0.18"/><circle cx="558" cy="356" r="6" fill="url(#dot)"/>
+      <circle cx="478" cy="478" r="16" opacity="0.18"/><circle cx="478" cy="478" r="6" fill="url(#dot)"/>
+      <circle cx="568" cy="625" r="16" opacity="0.18"/><circle cx="568" cy="625" r="6" fill="url(#dot)"/>
+      <circle cx="880" cy="490" r="16" opacity="0.18"/><circle cx="880" cy="490" r="6" fill="url(#dot)"/>
+      <circle cx="912" cy="515" r="16" opacity="0.18"/><circle cx="912" cy="515" r="6" fill="url(#dot)"/>
+      <circle cx="902" cy="545" r="18" opacity="0.22"/><circle cx="902" cy="545" r="7" fill="url(#dot)"/>
+      <circle cx="892" cy="560" r="16" opacity="0.18"/><circle cx="892" cy="560" r="6" fill="url(#dot)"/>
+      <circle cx="940" cy="690" r="16" opacity="0.18"/><circle cx="940" cy="690" r="6" fill="url(#dot)"/>
+      <circle cx="1092" cy="862" r="16" opacity="0.18"/><circle cx="1092" cy="862" r="6" fill="url(#dot)"/>
+      <circle cx="740" cy="560" r="16" opacity="0.18"/><circle cx="740" cy="560" r="6" fill="url(#dot)"/>
+      <circle cx="790" cy="680" r="16" opacity="0.18"/><circle cx="790" cy="680" r="6" fill="url(#dot)"/>
+      <circle cx="812" cy="732" r="16" opacity="0.18"/><circle cx="812" cy="732" r="6" fill="url(#dot)"/>
+      <circle cx="795" cy="800" r="16" opacity="0.18"/><circle cx="795" cy="800" r="6" fill="url(#dot)"/>
+      <circle cx="818" cy="915" r="16" opacity="0.18"/><circle cx="818" cy="915" r="6" fill="url(#dot)"/>
+      <circle cx="765" cy="878" r="16" opacity="0.18"/><circle cx="765" cy="878" r="6" fill="url(#dot)"/>
+    </g>
+  </g>
+</svg>

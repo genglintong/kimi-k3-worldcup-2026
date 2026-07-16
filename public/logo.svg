@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MILESTONES 26">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF9E3D"/>
+      <stop offset="0.45" stop-color="#F5C452"/>
+      <stop offset="0.6" stop-color="#FFF3D6"/>
+      <stop offset="1" stop-color="#D9A03B"/>
+    </linearGradient>
+  </defs>
+  <!-- 抽象足球：外圆 + 缝线纹理 -->
+  <circle cx="32" cy="32" r="29" fill="none" stroke="url(#gold)" stroke-width="2.4"/>
+  <g fill="none" stroke="url(#gold)" stroke-width="1.1" opacity="0.35">
+    <path d="M32 4 C38 14 38 50 32 60"/>
+    <path d="M6 22 C16 27 48 27 58 22"/>
+    <path d="M6 42 C16 37 48 37 58 42"/>
+    <path d="M24 20 L32 15 L40 20 L38 29 L26 29 Z" opacity="0.9"/>
+  </g>
+  <!-- 锐利「26」花押 -->
+  <g fill="none" stroke="url(#gold)" stroke-width="4.6" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M13 21 H29 V27.5 L13 44 H29"/>
+    <path d="M50 21 H38 V44 H50 V33 H39"/>
+  </g>
+</svg>
